@@ -1,1 +1,2 @@
-# RvD_Containerized
+# RobotsVsDinosaurs
+DCC Project Number 2
