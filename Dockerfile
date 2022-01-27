@@ -8,8 +8,8 @@ ENV PYTHONBUFFERED=1
 COPY requirements.txt ./
 
 RUN pip install -r requirements.txt
-RUN adduser -u 5678 --disabled-password adduser
-USER appuser
+RUN adduser -u 5678 --disabled-password nonroot-user
+USER nonroot-user
 
 COPY ./ ./
 
