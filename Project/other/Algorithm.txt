@@ -1,0 +1,11 @@
+English algorithm for the battlefield class
+1.	Instantiate the Class (Battlefield) should be a simple line of code for self = self
+2.	Def run_game I think will be the hardest part.  I plan on making a for loop but will certainly need to make a few
+    iterations of it to get it feeling right
+3.	Display welcome is as easy as print(“Welcome to the Battlefield!”)
+4.	Define battle I think should be easy enough to plug in the attack methods from robots and dinos
+5.	Dino turn would be the start of the battle loop, will code it to wait for the robots turn
+6.	Vice versa of dino
+7.	Use an input to choose between attacking the tank, damage dealer, or support
+8.	Vice versa to dino
+9.	Show the user which team won by utilizing the loop in run game to determine which team ran out of health first
